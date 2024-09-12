@@ -10,6 +10,7 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    text-align: center;
 }
 aside{
     flex: 1;
