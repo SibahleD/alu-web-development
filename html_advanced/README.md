@@ -1,5 +1,6 @@
-# Grade Book Application
+# 
 
+![alt text](http://url/to/img.png)
 ## Overview
 
 The Grade Book Application is a program designed to manage and track students and courses effectively. It offers a range of functions to manage student and course records, including adding students and courses, registering students for courses, and generating transcripts. 
