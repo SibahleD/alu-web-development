@@ -1,12 +1,164 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 header {
-    display: flex;
     font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
     font-size: 12px;
+    color: white;
+    text-align: center;
     text-transform: uppercase;
-    text-align: left;
   }
+  /*Centering Header */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li img{
+    float: left;
+    padding: 16px;
+  }
+li a {
+    float: right;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  /* Main Text */
+.firstUp h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+.firstUp p{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 30px;
+}
+/* Button Edit*/
+button{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: C271FF;
+    border-radius: 22px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 162px;
+    height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+/* Pros Section */
+.SecondUp div {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 50px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.SecondUp h3{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.SecondUp p{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-style: italic;
+  width: 150px;
+  height: 48px;
+}
+/*'Learn from pros' text*/
+h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.bigboldcolor{
+  font-weight: bold;
+  color: C271FF;
+}
+
+/*Quote*/
+#section2{
+  background-color: C271FF;
+}
+.quote{
+  height: 392px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.quote img{
+  padding:50px;
+}
+.quote div{
+  width: 720px;
+}
+.quote q{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  color: white;
+  
+}
+.quote h2{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0px 0px 0px;
+}
+.quote p{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  margin: 0px;
+}
+/* Viideos */
+#section3 {
+  background-color: white;
+}
+.videos div{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color:black;
+  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  justify-content: center;
+  width: 255px;
+  height: 335px;
+}
+.videos h2{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color:black;
+  font-size: 16px;  
+}
+.videos p{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: lighter;
+  color:rgb(7, 22, 41, 0.5);
+}
 body{
     display: flex;
     flex-direction: column;
@@ -18,6 +170,3 @@ main{
     flex-direction: column;
     flex: auto;
   }
-.HeaderLink {
-    text-align: right;
-}
