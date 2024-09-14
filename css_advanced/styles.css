@@ -143,7 +143,12 @@ h2 {
     font-weight: light;
     color: black;
 }
-.videos div{
+#section3 h3{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+    color: C271FF;
+}
+.videos div {
   font-family: "Source Sans 3", sans-serif;
   font-weight: bold;
   color:black;
@@ -167,16 +172,22 @@ h2 {
 }
 #author1{
   display: flex;
-  float: left;
-  align-items: left;
+  justify-content: left;
+  align-items: center;
   text-align: left;
   height: 30px;
 }
+.videos h3{
+  padding: 10px;
+  font-size: 14px;
+}
+
 body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: url("https://img.freepik.com/premium-photo/winsome-young-lady-laughing-with-closed-eyes-studio-shot-appealing-girl-isolated-grey-space_926199-2853479.jpg") ;
+    background: url("https://img.freepik.com/premium-photo/winsome-young-lady-laughing-with-closed-eyes-studio-shot-appealing-girl-isolated-grey-space_926199-2853479.jpg");
+    background-size: contain;
   }
 main{
     display: flex;
