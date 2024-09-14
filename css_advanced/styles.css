@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+header {
+    display: flex;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: url("https://img.freepik.com/premium-photo/winsome-young-lady-laughing-with-closed-eyes-studio-shot-appealing-girl-isolated-grey-space_926199-2853479.jpg") ;
+  }
+main{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+  }
+.HeaderLink {
+    text-align: right;
+}
