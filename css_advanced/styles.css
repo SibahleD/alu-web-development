@@ -133,9 +133,15 @@ h2 {
   color: white;
   margin: 0px;
 }
-/* Viideos */
+
+/* Videos */
 #section3 {
   background-color: white;
+}
+#section3 h2{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: light;
+    color: black;
 }
 .videos div{
   font-family: "Source Sans 3", sans-serif;
@@ -158,6 +164,13 @@ h2 {
   font-family: "Source Sans 3", sans-serif;
   font-weight: lighter;
   color:rgb(7, 22, 41, 0.5);
+}
+#author1{
+  display: flex;
+  float: left;
+  align-items: left;
+  text-align: left;
+  height: 30px;
 }
 body{
     display: flex;
